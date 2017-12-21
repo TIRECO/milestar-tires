@@ -1,0 +1,78 @@
+.tire-specs-wrapper{
+    display: flex;
+    border: 1px solid grey;
+    margin: 0 auto;
+    width: 84%;
+}
+.full-specs{
+    width: 90%;
+    overflow-x: scroll;
+}
+.wheel-diameter{
+    width: 10%;
+}
+.table-body-row{
+    height: 27px;
+}
+.tire-spec-table{
+    text-align: center;
+    font-size: 11px;
+    margin: 0;
+}
+tbody{
+    display: table;
+    width: 100%;;
+}
+.table-header-row{
+    background-color: #F6891E;
+    color: white;
+    height: 25px;
+}
+.table-header-col{
+    white-space: nowrap;
+    padding: 5px;
+    font-weight: 600;    
+    border-right: 1px solid white;
+    text-align: center;
+}
+.table-header-col:last-child{
+    border-right: none;
+}
+.table-body-col{
+    white-space: nowrap;
+    padding: 5px;
+    font-weight: 600;
+}
+.table-body-col.tire-size{
+    border-right: 1px solid white;
+}
+.bg-grey{
+    background-color: #cccccc;
+}
+.bg-white{
+    background-color: white;
+}
+.grey-border-bottom{
+    
+}
+
+@media (max-width: 1169px) and (min-width: 750px) {
+    .full-specs{
+        width: 85%;
+    }
+    .wheel-diameter{
+        width: 15%;
+    }   
+}
+@media (max-width: 749px){
+    .full-specs{
+        width: 80%;
+    }
+    .wheel-diameter{
+        width: 20%;
+        min-width: 90px;
+    }
+    .tire-spec-table{
+        font-size: 10px;
+    }
+}

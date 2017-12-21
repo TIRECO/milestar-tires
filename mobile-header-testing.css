@@ -1,0 +1,83 @@
+.mobile-menu{
+    display: none;
+}
+@media screen and (max-width: 749px){
+   .mobile-menu{
+        position: absolute;
+    }
+    .mobile-menu.shown{
+        display: block;
+        position: absolute;
+        z-index: 15;
+        background: white;
+        width: 100%;
+        top: 57px;
+    }
+    #menu-mobile-header{
+        margin: 0;
+        list-style-type: none;
+        padding: 5px 15px;
+    }
+    #menu-mobile-header > li > a, #menu-mobile-header > li > a:visited{
+        color: #404040;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 5px 0;
+        display: block;
+    }
+    #menu-mobile-header .sub-menu > li > a,#menu-mobile-header .sub-menu > li > a:visited{
+        color: #404040;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        display: block;
+        margin: 4px 10px;
+    }
+    #menu-mobile-header > li > a span, 
+    #menu-mobile-header .sub-menu > li > a span{
+        font-size: 11px;
+    }
+    #menu-mobile-header .sub-menu{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: none;
+    }
+    #menu-mobile-header .sub-menu > li{
+        background-repeat: no-repeat;
+        background-size: 55px , 95px, 100%;
+        background-position: right bottom, calc(100% - 20px) bottom, center center;        
+    }
+    
+    #menu-mobile-header .sub-menu > li.gradient-bg{
+        background-image: linear-gradient(#ffffff,#f6f6f6);
+        background-size: 100%;
+        background-position: center center;
+        padding: 5px 0;
+    }
+    
+    
+    
+    
+    
+    .home-page-body, .home-page-body.shrunk{
+        padding-top: 0 !important;
+    }
+    
+    .header{
+        height: auto !important;
+        position: relative !important;
+    }
+    
+    
+    
+    /*For Header Vehicle and Size Search Toggling*/
+    .find-tire-options,
+    .size-search-options{
+        height: 101px;
+        position: fixed;
+        width: 100%;
+        top: 150px;
+    }
+}

@@ -1,0 +1,13 @@
+.about-us-text p{
+    font-size: 17px;
+}
+@media only screen and (max-width: 1169px) and (min-width: 750px){
+    .about-us-text p{
+        font-size: 14px;
+    }   
+}
+@media screen and (max-width: 749px){
+    .about-us-text p{
+        font-size: 12px;
+    }   
+}

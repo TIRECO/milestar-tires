@@ -1,0 +1,22 @@
+    @media only screen and (max-width: 1169px) and (min-width: 750px) {
+    }
+    @media screen and (max-width: 749px) {
+    }
+.how-to-read-a-tire-container {
+    margin-top: -1px;
+    padding: 0 5.3%;
+}
+
+.how-to-read-a-tire-page-title {
+    margin-bottom: 7px !important;
+}
+
+.how-to-read-a-tire-page-title h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.how-to-read-a-tire-image {
+    margin: 18px 0 0 0 !important;
+}

@@ -1,0 +1,120 @@
+.vc_column-inner {
+    padding-top: 0 !important;
+}
+
+.warranty-page-container {
+    padding: 0 5.3%;
+}
+
+.warranty-page-title {
+    margin: 23px 0 36px 0 !important;
+}
+
+.warranty-page-title h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.warranty-button{
+    width: 75%;
+    justify-content: center;
+    background: #F6891E;
+    display: flex;
+    margin: 0 auto 49px auto !important;
+}
+
+    @media only screen and (max-width: 1169px) and (min-width: 750px) {
+        .warranty-button {
+            width: 75%;
+        }
+    }
+    @media screen and (max-width: 749px) {
+        .warranty-button {
+            width: 100%;
+        }
+    }
+
+.warranty-button > button, .warranty-button > a {
+    background: transparent !important;
+    border: none !important;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.warranty-link{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+}	
+p{
+	font-size: 17px;
+}
+ul{
+	font-size:17px;
+}
+ol{
+	font-size:17px;
+}
+@media only screen and (max-width: 1169px) and (min-width: 750px) {
+    .warranty-header{
+        height: 200px;
+    }
+    .description-container{
+        width: 65%;
+    }
+    .header-title{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .warranty-button{
+        width: 75%;
+    }
+    .warranty-pdf-link{
+        font-size: 14px;
+    }
+	p{
+    font-size: 14px;
+	}
+	ul{
+	font-size:14px;
+	}
+	ol{
+	font-size:14px;
+	}
+}
+
+@media screen and (max-width: 749px) {
+     .warranty-header{
+        height: 160px;
+    }
+    .header-title{
+        font-size: 20px;
+    }
+    .description-container{
+        width: 95%;
+    }
+    .description{
+        font-size: 12px;
+        text-align: center;
+    }
+    .warranty-button{
+        width: 75%;
+    }
+    .warranty-pdf-link{
+        font-size: 10px;
+    }
+	p{
+    font-size: 12px;
+	}
+	ul{
+	font-size:12px;
+	}
+	ol{
+	font-size:12px;
+	}
+}

@@ -1,0 +1,189 @@
+#wpsl-wrap.search-container-custom{
+    margin: 0;
+}
+#wpsl-wrap .wpsl-search{
+    padding: 10px;
+}
+#wpsl-gmap.gmap-canvas-custom{
+    width: 100%;
+}
+#wpsl-wrap.search-filter-custom{
+    margin: 0;
+    padding: 0;
+}
+.form-filter-custom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#wpsl-search-wrap{
+    font-size: 15px;
+}
+#wpsl-search-wrap .wpsl-input.input-custom{
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+#wpsl-search-wrap .wpsl-select-wrap.select-wrap-custom{
+    margin: 0 5px;
+}
+#wpsl-search-wrap #wpsl-radius.radius-custom{
+    display: flex;
+    align-items: center;
+}
+#wpsl-search-wrap #wpsl-radius.radius-custom label{
+    width: initial;
+}
+#wpsl-search-wrap #wpsl-results.result-custom{
+    display: flex;
+    align-items: center;
+}
+#wpsl-result-list.search-list-container-custom{
+    width: 100%;
+    margin: 10px 0;
+}
+#wpsl-result-list .search-result-header{
+    display: flex;
+    justify-content: center;
+}
+#wpsl-result-list .search-result-header h1{
+    font-weight: 800;
+}
+#wpsl-result-list > #wpsl-stores{
+    height: auto !important;
+    
+    display: flex;
+    justify-content: center;
+}
+#wpsl-wrap #wpsl-result-list li.list-row-custom{
+    display: flex;
+/*    justify-content: center;*/
+    justify-content: baseline;
+}
+#wpsl-wrap #wpsl-result-list li.list-row-custom:last-child{
+    border-bottom: none;
+}
+#wpsl-result-list li .wpsl-store-location p{
+    margin: 0 0 10px;
+}
+.store-detail-custom{
+    font-weight: 700;
+    font-size: 26px;
+}
+.store-detail-custom span{
+    font-size: 18px;
+}
+.loc-icon-custom{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.loc-icon-custom svg{
+    height: 100px;
+}
+.loc-icon-custom .distance-custom{
+    margin: 10px 0;
+}
+#wpsl-result-list li .loc-icon-custom .distance-custom p{
+    margin: 0;
+}
+
+.wpsl-direction-wrap .wpsl-directions{
+    background-color: #F6891E;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    width: 250px;
+}
+
+@media only screen and (max-width: 1169px) and (min-width: 750px){
+    #wpsl-gmap.gmap-canvas-custom{
+        height: 350px !important;
+    }
+    #wpsl-search-wrap .wpsl-input.input-custom{
+        width: auto;
+    }
+    #wpsl-result-list .search-result-header h1{        
+        font-size: 26px;
+    }
+    .loc-icon-custom{
+        width: 60px;
+    }
+    .loc-icon-custom svg{
+        width: 100%;
+        height: auto;
+    }
+    .store-detail-custom{
+        font-size: 20px;
+    }
+    .store-detail-custom span{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 749px){
+    #wpsl-gmap.gmap-canvas-custom{
+        display: none;
+    }
+    #wpsl-search-wrap .wpsl-input.input-custom{
+        flex-direction: column;
+        width: 35%;
+    }
+    .form-filter-custom{
+        align-items: flex-end;
+    }
+    #wpsl-search-wrap .wpsl-input.input-custom label{
+        font-size: 14px;
+    }
+    #wpsl-search-wrap .wpsl-search-btn-wrap #wpsl-search-btn{
+        margin-bottom: 0;
+    }
+    
+    #wpsl-search-wrap #wpsl-results.result-custom{
+        display: none;
+    }
+    #wpsl-search-wrap #wpsl-search-input{
+        padding: 5px;
+        line-height: normal;
+    }
+    #wpsl-search-wrap .wpsl-select-wrap.select-wrap-custom{
+        width: auto;
+    }
+    #wpsl-search-wrap .wpsl-select-wrap.select-wrap-custom label{
+        margin: 0;
+        font-size: 14px;
+    }
+    #wpsl-search-wrap .wpsl-select-wrap.select-wrap-custom .wpsl-dropdown{
+        height: 30px;        
+    }
+    #wpsl-search-wrap #wpsl-radius.radius-custom{
+        flex-direction: column;
+        width: auto;
+    }
+    #wpsl-result-list .search-result-header h1{        
+        font-size: 20px;
+    }
+    .loc-icon-custom{
+        width: 50px;
+    }
+    .loc-icon-custom svg{
+        width: 100%;
+        height: auto;
+    }
+    #wpsl-result-list li .loc-icon-custom .distance-custom p{
+        font-size: 14px;
+    }
+    .store-detail-custom{
+        font-size: 18px;
+    }
+    .store-detail-custom span{
+        font-size: 14px;
+    }
+}
+
+

@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------
+## TBR homepage body
+--------------------------------------------------------------*/
+.tbr-lineup-header-text-wrapper.wpb_content_element{
+        margin-bottom : 20px;
+}
+.tbr-lineup-header-text-wrapper h1{
+    font-weight: 800;
+    font-size: 37px;
+}
+.tbr-lineup-body-line{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #C7C7C7;
+}
+
+.tbr-lineup-body-line:last-child {
+    border: none;
+}
+
+.tbr-lineup-body-line.mobile-row{
+    border: none;
+}
+.tbr-lineup-segment-header-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.tbr-lineup-segment-header-wrapper h1{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4e4e4e;
+}
+
+.tbr-lineup-segment .tbr-tire-img-container{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.tbr-lineup-segment .tbr-tire-name{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.tbr-lineup-segment .tbr-tire-name h2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+}
+.tbr-tire-sub-name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tbr-tire-sub-name h3{
+    margin: 0;
+    font-size: .75rem;
+}
+
+@media only screen and (max-width: 1169px) and (min-width: 750px){
+    .tbr-lineup-header-text-wrapper.wpb_content_element{
+        margin-bottom : 15px;
+    }
+    .tbr-lineup-header-text-wrapper h1{
+        font-size: 24px;
+    }
+    .tbr-lineup-body-line .tbr-lineup-segment-header-wrapper{
+        margin-bottom: 15px;
+    }
+    .tbr-lineup-segment-header-wrapper h1{
+        font-size: 14px;
+    }
+    .tbr-lineup-segment .tbr-tire-img-container{
+        transform: scale(.85);
+    }
+    .tbr-lineup-segment .tbr-tire-name h2{
+        font-size: .9rem;
+    }
+    .tbr-tire-sub-name.wpb_content_element{
+        margin-bottom: 15px;
+    }
+    .tbr-tire-sub-name h3{
+        font-size: .7rem;    
+    }
+}
+@media screen and (max-width: 749px){
+    .tbr-lineup-header-text-wrapper.wpb_content_element{
+        margin-bottom : 10px;
+    }
+    .tbr-lineup-header-text-wrapper h1{
+        font-size: 17px;
+    }
+    .tbr-lineup-segment-header-wrapper h1{
+        font-size: 11px;
+    }
+    .tbr-lineup-segment .tbr-tire-img-container{
+        transform: scale(.65);
+    }
+    .tbr-lineup-segment .tbr-tire-name h2{
+        font-size: .8rem;
+    }
+    .tbr-tire-sub-name h3{
+        font-size: .6rem;    
+    }
+    
+    
+    .tbr-lineup-body-line.mobile-row{
+        border-bottom: 2px solid #C7C7C7;
+    }
+
+}

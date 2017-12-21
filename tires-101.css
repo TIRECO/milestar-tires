@@ -1,0 +1,81 @@
+    .vc_column-inner {
+        padding-top: 0 !important;
+    }
+	p{
+    font-size: 17px;
+	}
+    .tires-101-container {
+        padding: 0 5.3%;
+    }
+
+    .tires-101-hero {
+        height: 580px;
+        margin-top: -66px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    @media only screen and (max-width: 1169px) and (min-width: 750px) {
+        .tires-101-hero {
+            height: 439px;
+        }
+		p{
+    	font-size: 14px;
+		}
+    }
+    @media screen and (max-width: 749px) {
+        .tires-101-hero {
+            height: 289px;
+            margin-top: -45px !important;
+        }
+		p{
+   		font-size: 12px;
+		}
+    }
+
+
+    .tires-101-page-title {
+        margin: 23px 0 36px 0 !important;
+    }
+
+    .tires-101-page-title h1 {
+        font-size: 2.25rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .tires-101-icon {
+        margin-bottom: 0 !important; 
+    }
+
+    .tires-101-text a {
+        color: #000;
+        font-weight: 800;
+        font-size: 1.2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .tires-101-text a:visited {
+        color: #000;
+    }
+
+    .tires-101-pages-container {
+        margin-top: -1px;
+        padding: 0 5.3%;
+    }
+
+    .tires-101-pages-title {
+        margin-bottom: 7px !important;
+    }
+
+    .tires-101-pages-title h1 {
+        font-size: 2.25rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .tires-101-pages-image {
+        margin: 18px 0 0 0 !important;
+    }

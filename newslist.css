@@ -1,0 +1,173 @@
+/*--------------------------------------------------------------
+## News Article List Page
+--------------------------------------------------------------*/
+
+body a:visited{
+    color: white;
+}
+
+.home-page-body.news-list-body h1{
+    font-size: 38px;
+    font-weight: 800;  
+}
+
+.article-row .news-info-wrapper{
+    border-bottom: 2px solid #C7C7C7;
+}
+
+.article-row .news-info-wrapper .news-image{
+    width: 40%;
+    padding: 2%;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 2.5%;
+}
+.article-row .news-info-wrapper .news-image img{
+    box-shadow: 3px 3px 7px #aaa;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+.article-row .news-info-wrapper .news-info{
+    width: 60%;
+    padding: 2%;
+}
+
+.article-row .news-info-wrapper .news-info .news-title{
+    font-size: 26px;
+    font-weight: 700;
+}
+.article-row .news-info-wrapper .news-info .news-title h2{
+    margin: 0;
+    line-height: 1;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: calc(2vw + 0.5vmin);
+}
+.article-row .news-info-wrapper .news-info .news-date{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F6891E;
+}
+.article-row .news-info-wrapper .news-info .news-excerpt{
+    font-size: 18px;
+    font-weight: 700;
+}
+.article-row .news-info-wrapper .news-info .news-excerpt-mobile{
+    display: none;
+}
+.article-row .news-info-wrapper .news-info .readmore{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background: #f6891e;
+    text-decoration: none;
+    color: white;
+}
+
+.article-row .news-info-wrapper .news-info .readmore p{
+    font-weight: 700;
+}
+
+.prev-next-posts{
+    display: flex;
+    justify-content: space-between;
+    margin-top:1%;
+}
+.prev-posts-link,
+.next-posts-link{
+    width: 150px;
+    display: flex;
+}
+.prev-posts-link a,
+.next-posts-link a{
+    width: 100%;
+    background-color: #F6891E;
+    text-align: center;
+    margin: 5%;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1169px) and (min-width: 750px){
+    .home-page-body.news-list-body h1{
+        font-size: 26px; 
+    }
+    .article-row .news-info-wrapper .news-info .news-title{
+        font-size: 21px;
+    }
+    .article-row .news-info-wrapper .news-info .news-date{
+        font-size: 14px;
+    }
+
+    .article-row .news-info-wrapper .news-info .news-date h4{
+        margin: 0;
+    }
+    
+    .article-row .news-info-wrapper .news-info .news-excerpt{
+        font-size: 14px;
+    }
+    .prev-posts-link,
+    .next-posts-link{
+        width: 120px;
+    }
+    .article-row .news-info-wrapper .news-info .news-excerpt-mobile{
+        display: none;
+    }
+    .article-row .news-info-wrapper .news-info .readmore{
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 749px){
+    body a:visited{
+        color: black;
+    }
+    body a:hover{
+        color: black;
+    }
+    .home-page-body.news-list-body h1{
+        font-size: 22px;
+    }
+    .article-row .news-info-wrapper{
+        flex-direction: column;
+        align-items: center;    
+    }
+    .article-row .news-info-wrapper .news-info{
+        text-align: center;
+    }
+    .article-row .news-info-wrapper .news-image{
+        width: 60%;
+    }
+
+    .article-row .news-info-wrapper .news-info .news-title{
+        font-size: 16px;
+        text-align: letter-spacing: ;
+    }
+    .article-row .news-info-wrapper .news-info .news-date{
+        font-size: 15px;
+        text-align: justify;
+    }
+    .article-row .news-info-wrapper .news-info .news-date h4{
+        margin: 0;
+    }
+
+    .article-row .news-info-wrapper .news-info .news-excerpt{
+        display: none;
+    }
+    .article-row .news-info-wrapper .news-info .news-excerpt p {
+        margin: 0;
+    }
+
+    .news-excerpt-mobile-link{
+        color: black;
+    }
+    .article-row .news-info-wrapper .news-info .news-excerpt-mobile{
+        font-size: 12px;
+        text-align: justify;
+        display: inline-block;
+    }
+    .article-row .news-info-wrapper .news-info .readmore{
+        display: none;
+    }
+}
